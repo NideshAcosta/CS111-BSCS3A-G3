@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IncomeInput"
+    android:background="@drawable/gradient"
+    android:id="@+id/incomeView">
+
+    <EditText
+        android:id="@+id/totalIncome"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/rounded_background"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Total Income"
+        android:inputType="numberDecimal"
+        android:padding="15dp"
+        android:textColor="@color/darkBlue"
+        android:textColorHint="@android:color/darker_gray"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/help"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/budgetI1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/rounded_background"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="text"
+        android:padding="20dp"
+        android:textColor="@color/darkBlue"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/percentI1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/budgetI2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/rounded_background"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="text"
+        android:padding="20dp"
+        android:textColor="@color/darkBlue"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/percentI2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/budgetI1" />
+
+    <EditText
+        android:id="@+id/budgetI3"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/rounded_background"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="text"
+        android:padding="20dp"
+        android:textColor="@color/darkBlue"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/percentI3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/budgetI2" />
+
+
+    <EditText
+        android:id="@+id/budgetI4"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/rounded_background"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="text"
+        android:padding="20dp"
+        android:textColor="@color/darkBlue"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/percentI4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/budgetI3" />
+
+    <EditText
+        android:id="@+id/budgetI5"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/rounded_background"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="text"
+        android:padding="20dp"
+        android:textColor="@color/darkBlue"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/percentI5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/budgetI4" />
+
+    <EditText
+        android:id="@+id/percentI1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/rounded_background"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        android:padding="20dp"
+        android:textColor="@color/darkBlue"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/budgetI1"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <EditText
+        android:id="@+id/percentI2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/rounded_background"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        android:padding="20dp"
+        android:textColor="@color/darkBlue"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/budgetI2"
+        app:layout_constraintTop_toBottomOf="@+id/percentI1" />
+
+    <EditText
+        android:id="@+id/percentI3"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/rounded_background"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        android:padding="20dp"
+        android:textColor="@color/darkBlue"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/budgetI3"
+        app:layout_constraintTop_toBottomOf="@+id/percentI2" />
+
+    <EditText
+        android:id="@+id/percentI4"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/rounded_background"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        android:padding="20dp"
+        android:textColor="@color/darkBlue"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/budgetI4"
+        app:layout_constraintTop_toBottomOf="@+id/percentI3" />
+
+    <EditText
+        android:id="@+id/percentI5"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/rounded_background"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="text"
+        android:padding="20dp"
+        android:textColor="@color/darkBlue"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/budgetI5"
+        app:layout_constraintTop_toBottomOf="@+id/percentI4" />
+
+    <TextView
+        android:id="@+id/totalPercent"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="48dp"
+        android:background="@drawable/rounded_background"
+        android:ems="10"
+        android:gravity="center"
+        android:textColor="@color/darkBlue"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/percentI5" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        app:backgroundTint="@color/light"
+        app:itemBackground="@color/light"
+        app:itemIconSize="50dp"
+        app:itemIconTint="@drawable/selector"
+        app:labelVisibilityMode="unlabeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/menu_navigation" >
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="40dp"
+        android:text="WILL BE BUDGETED TO:"
+        android:textColor="@color/light"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/totalIncome" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="80dp"
+        android:text="%"
+        android:textColor="@color/light"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/totalIncome" />
+
+    <android.widget.Button
+        android:id="@+id/calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/rounded_background2"
+        android:padding="20dp"
+        android:text="CALCULATE"
+        android:textColor="@color/light"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <android.widget.Button
+        android:id="@+id/help"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/ic_baseline_help_24"
+        android:backgroundTint="@color/orange"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/totalIncome"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_help_24" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
